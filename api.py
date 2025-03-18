@@ -9,7 +9,7 @@ async def teste():
 
 # Função de pagamento importável para o main.py
 def link_pagamento():
-    sdk = mercadopago.SDK("SUA_CHAVE_AQUI")
+    sdk = mercadopago.SDK("APP_USR-1588218199296186-030923-f8d6e6b51ed1eed28a231f9b16d089bc-1456006594")
     payment_data = {
         "items": [
             {"id": "venda", "title": "vaga", "quantity": 1, "currency_id": "BRL", "unit_price": 100.00},
